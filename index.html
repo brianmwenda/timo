@@ -27,9 +27,9 @@
 
   <header>
     <div class="n">
-      <nav class="navbar navbar-expand-lg navbar-light navbar-float">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-float" id="navbar-float">
         <div class="container">
-          <a href="index.html" class="navbar-brand">Green Earth<span class="text-primary">Cemetries.</span></a>
+          <a style="font-size:30px" href="index.html" class="navbar-brand">Green Earth<span class="text-primary">Cemetries.</span></a>
 
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -67,32 +67,45 @@
                 <a href="#desktopfunwithflowers" class="nav-link">Fun With Flowers</a>
               </li>
               <li class="nav-item">
+                <a href="#faqs" class="nav-link">FAQS</a>
+              </li>
+              <li class="nav-item">
                 <a href="#contact" class="nav-link">Contact</a>
               </li>
             </ul>
             <div class="ml-auto">
-              <a href="#" class="btn btn-outline rounded-pill">Get a Quote</a>
+
+              <a href="assets/quote/quote.docx" download="Quotation" class="btn btn-outline rounded-pill">Get a Quote</a>
             </div>
           </div>
         </div>
       </nav>
     </div>
+    <!-- chat bot start -->
+    <!-- <div id="botcontainer" class="botcontainer">
+       <div id="chat" class="chat">
+        <div id="messages" class="messages" ></div>
 
-
+        <input id="input" type="text" placeholder="Write something..." autocomplete="off" autofocus="true" />
+      </div>
+    </div> -->
+    <!-- chat bot end -->
+<div id="preloader">
   <div id="loader">
-      <div></div>
-      <div></div>
-      <div></div>
+
   </div>
+</div>
 
 
 
     <div class="page-banner home-banner">
+      <div class="faderr">
+      </div>
       <div class="container h-100">
         <div class="row align-items-center h-100">
           <div class="col-lg-6 py-3 wow fadeInUp">
-            <h1 class="mb-4">The Best Grave Beautification Team in Nairobi.</h1>
-            <p class="text-lg mb-5">Cultivating joy is the mainspring for Green Earth Cemetries, knowing that flowers and greenery can have a healing effect.</p>
+            <h1 class="mb-4">The Best Gravesite Beautification Team in Kenya.</h1>
+            <p class="text-lg mb-5">Cultivating joy is the mainspring for Green Earth Cemetries, knowing that flowers and greenery can have a peaceful and healing effect.</p>
 
             <a href="#" class="btn btn-primary btn-split ml-2">Watch Video <div class="fab"><span class="mai-play"></span></div></a>
           </div>
@@ -107,7 +120,7 @@
     <div class="ta">
 <div >
   <p>
-Green Earth Cemetries offers personalized care and garden design for gravesites, as well as delivery of fresh flowers or potted plants. Our care plans ensure that your loved one’s gravesite continues to look “serene and green” throughout the year.
+Green Earth Cemetries offers personalized care and garden design for gravesites, as well as delivery of fresh flowers, potted plants and memorial lights. Our care plans ensure that your loved one’s gravesite continues to look serene and green throughout the year.
   </p>
 </div>
     </div>
@@ -165,7 +178,7 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
               </div>
             </div>
             <div class="careplanimg">
-                <img  src="assets/img/garden.jpg" alt="">
+                <img id="fullScreenElement1" onclick="toggleFullScreen('fullScreenElement1')" src="assets/img/garden.jpg" alt="">
             </div>
 
 
@@ -180,7 +193,7 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
                 <h5>Fresh floral arrangements, ribbon-tied bouquets, or potted plants may be placed
                    at a gravesite in remembrance of holidays (Easter, Mother’s Day, Memorial Day,
                    Father’s Day, and Thanksgiving, to name a few) or on other special occasions, such
-                   as a birthday or anniversary. Wreaths, holiday planters, and grave pillows may be
+                   as a birthday or anniversary.<br> Wreaths, holiday planters, and grave pillows may be
                    placed during the Christmas season. </h5>
                 <div class="box1" id="box3">
                   <div class="workshop-and-parties">
@@ -202,7 +215,7 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
               </div>
             </div>
             <div class="careplanimg">
-                <img  src="assets/img/floral.jpg" alt="">
+                <img id="fullScreenElement2" onclick="toggleFullScreen('fullScreenElement2')" src="assets/img/flowerange.png" alt="">
             </div>
           </div>
 
@@ -237,7 +250,7 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
               </div>
             </div>
             <div class="careplanimg">
-                <img src="assets/img/funflower.jpg" alt="">
+                <img id="fullScreenElement3" onclick="toggleFullScreen('fullScreenElement3')" src="assets/img/greenhead.png" alt="">
             </div>
           </div>
         </div>
@@ -260,8 +273,8 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
             </div>
           </div>
           <div class="col-lg-6 py-3 wow fadeInRight">
-            <h2 class="title-section">We're <span class="marked">Dynamic</span> Team of Creatives People</h2>
-            <div class="divider"></div>
+            <h2 class="title-section">We're <span class="marked">Dynamic</span> Team of Creative People</h2>
+
             <p>
               I believe the simple act of working with flowers and plant material is therapeutic, both lifting your mood and calming your mind. Too many people are intimidated by the act of “arranging” flowers, feeling only floral experts can create a beautiful bouquet. Serene & Green is on a mission to take the mystery out of flower-arranging—and put a smile on your face in the process! Through flower-filled workshops and access to professional grade florist tools, I’m here to boost your confidence and your well-being.
 
@@ -272,7 +285,7 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
   Whether it’s a vase filled with colorful blossoms or a beautified cemetery plot, flowers will fill your mind with beauty… and allow joy to bloom within you.
             </p>
             <div class="abtimage">
-              <img src="assets/img/bg_image_1.png" alt="">
+              <img src="assets/img/pngegg.png" alt="">
             </div>
 
             <a href="#mobilecontact" class="btn btn-primary">More Details</a>
@@ -285,24 +298,24 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
   <div class="parallax">
 
   </div>
-      <div class="page-section counter-section">
-        <div class="container">
-          <div class="row align-items-center text-center">
-            <div class="col-lg-4">
-              <p>Total Invest</p>
-              <h2>$<span class="number" data-number="816278"></span></h2>
-            </div>
-            <div class="col-lg-4">
-              <p>Yearly Revenue</p>
-              <h2>$<span class="number" data-number="216422"></span></h2>
-            </div>
-            <div class="col-lg-4">
-              <p>Growth Ration</p>
-              <h2><span class="number" data-number="73"></span>%</h2>
-            </div>
-          </div>
-        </div> <!-- .container -->
-      </div> <!-- .page-section -->
+  <div class="page-section counter-section">
+    <div class="container">
+      <div class="row align-items-center text-center">
+        <div class="col-lg-4">
+          <p>Total Gigs</p>
+          <h2><span class="number" data-number="816278"></span></h2>
+        </div>
+        <div class="col-lg-4">
+          <p>Total Deliveries</p>
+          <h2><span class="number" data-number="216422"></span></h2>
+        </div>
+        <div class="col-lg-4">
+          <p>Growth Ration</p>
+          <h2><span class="number" data-number="73"></span>%</h2>
+        </div>
+      </div>
+    </div> <!-- .container -->
+  </div> <!-- .page-section -->
 
   <div  id="mobilefunflower">
     <div class="parallax">
@@ -319,7 +332,7 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
               proven to make people happy. From boosting your mood or lowering stress, there’s nothing quite
               like a bouquet of colorful blooms to elevate your space and your wellbeing.
   </p>
-  <a class="btn btn-primary dropdownbutton" >More Details</a>
+  <a class="btn btn-primary dropdownbutton" style="color:white">More Details</a>
   <div class="box" id="box">
     <div class="workshop-and-parties">
         <p class="alltitlesonpage">Work and Parties</p>
@@ -429,17 +442,17 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
             <div class="col-lg-4 py-3 wow fadeInUp">
               <div class="display-3"><span class="mai-shapes"></span></div>
               <h5>High Performance</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+              <p>We are what we repeatedly do. Excellence, then, is not an act, but a habit.</p>
             </div>
             <div class="col-lg-4 py-3 wow fadeInUp">
               <div class="display-3"><span class="mai-shapes"></span></div>
               <h5>Friendly Prices</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+              <p>We like to think of sales as the ability to gracefully persuade, not manipulate, a person or persons into a win-win situation.</p>
             </div>
             <div class="col-lg-4 py-3 wow fadeInUp">
               <div class="display-3"><span class="mai-shapes"></span></div>
               <h5>No time-confusing</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+              <p>A plan is what, a schedule is when. It takes both a plan and a schedule to get things done.</p>
             </div>
           </div>
         </div> <!-- .container -->
@@ -447,34 +460,43 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
 
 
 
-      <div class="page-section bg-light">
-        <div class="container">
-
-          <div class="owl-carousel wow fadeInUp" id="testimonials">
-            <div class="item">
-              <div class="row align-items-center">
-                <div class="col-md-6 py-3">
-                  <div class="testi-image">
-                    <img src="../assets/img/person/profile.jpg" alt="">
-                  </div>
-                </div>
-                <div class="col-md-6 py-3">
-                  <div class="testi-content">
-                    <p>Necessitatibus ipsum magni accusantium consequatur delectus a repudiandae nemo quisquam dolorum itaque, tenetur, esse optio eveniet beatae explicabo sapiente quo.</p>
-                    <div class="entry-footer">
-                      <strong>Melvin Platje</strong> &mdash; <span class="text-grey">CEO Slurin Group</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
 
+      <!-- Terms and conditions -->
+      <hr style="color:gray">
+      <div class="Terms">
+        <p class="alltitlesonpage">Terms & Conditions</p>
+        <div class="termspars">
+<img style="max-width:100%;" src="assets/img/terms.png" alt="">
+            <p><strong>Guarantee of Service and Quality</strong> </p>
+            <p>All of our work is carried out in a dignified and respectful manner.<br>
+        Floral tributes will be made up on the day of delivery to ensure freshness.<br>
+        Following each visit, you will receive a digital photograph of the grave.<br>
+        We cannot accept liability for any loss and/or damage occurring after we complete our work and leave the gravesite.</p>
 
-          </div>
-        </div> <!-- .container -->
-      </div> <!-- .page-section -->
+            <p><strong>Substitution</strong> </p>
+            <p>If necessary, due to availability issues of flowers and/or plants, we reserve the right to substitute alternatives of high quality and of equal or higher value.</p>
 
+            <p><strong>Payment Options</strong> </p>
+            <p>Following acceptance of your order, we will confirm the details and submit an invoice for payment which will form the basis and commencement of the agreement.<br>
+
+        We accept personal checks, cash, and credit card payments via PayPal. <br>
+
+        Pricing is based on a single plot size.</p>
+
+            <p><strong>Complaints</strong> </p>
+            <p>Please contact us immediately and we will aim to resolve any issues as quickly as possible.</p>
+
+            <p><strong>Regulations</strong> </p>
+            <p>Cemetery rules and regulations will be requested and adhered to.</p>
+            <p><strong>Surcharges</strong> </p>
+            <p>An extra fee will be added to locate non-specified grave locations.<br>
+
+        Travel charges will be added to cemeteries located outside Philadelphia and Bucks, Chester, Delaware, and Montgomery counties.<br>
+
+        For a small fee, printed photos of gravesites can be mailed to clients.</p>
+        </div>
+      </div>
 
 
 
@@ -482,28 +504,41 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
 <div class="desktopview">
   <div class="about" id="desktopabout">
     <p class="alltitlesonpage">About Us</p>
+
     <div class="page-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 py-3 wow zoomIn">
-            <div class="img-place text-center">
+            <div class="img-place text-center" >
               <img src="assets/img/team.png" alt="">
+              <br>
+            <p >
+  We emphasize the “green” in Green Earth Cemetries and promote eco-friendly floral design techniques. We do not use traditional floral foam in any of our
+  arrangements or workshops, as it is a single-use product that is formaldehyde-based and
+   does not break down in landfills. We are constantly seeking new methods, techniques, and mechanics for arranging flower stems that are more
+   sustainable and we are excited to share some of our favorite tools and design products with home designers.
+            </p>
             </div>
           </div>
           <div class="col-lg-6 py-3 wow fadeInRight">
-            <h2 class="title-section">We're <span class="marked">Dynamic</span> Team of Creatives People</h2>
-            <div class="divider"></div>
+            <h2 class="title-section">We're a <strong style="color:#6C55F9;">Dynamic</strong> Team of Creatives People</h2>
+
             <p>
-              I believe the simple act of working with flowers and plant material is therapeutic, both lifting your mood and calming your mind. Too many people are intimidated by the act of “arranging” flowers, feeling only floral experts can create a beautiful bouquet. Serene & Green is on a mission to take the mystery out of flower-arranging—and put a smile on your face in the process! Through flower-filled workshops and access to professional grade florist tools, I’m here to boost your confidence and your well-being.
+              We believe the simple act of working with flowers and plant material is therapeutic, both lifting your mood and
+               calming your mind. Too many people are intimidated by the act of “arranging” flowers,
+               feeling only floral experts can create a beautiful bouquet. Green Earth Cemetries is
+                on a mission to take the mystery out of flower-arranging—and put a smile on your face in
+                 the process! Through flower-filled workshops and access to professional grade florist tools, We`re here to boost your confidence and your well-being.
 
-  I emphasize the “green” in Serene & Green and promote eco-friendly floral design techniques. I do not use traditional floral foam in any of my arrangements or workshops, as it is a single-use product that is formaldehyde-based and does not break down in landfills. I am constantly seeking new methods, techniques, and mechanics for arranging flower stems that are more sustainable and am excited to share some of my favorite tools and design products with home designers.
+<br><br>
 
-  In addition, knowing that flowers and greenery can have a healing effect, I offer personalized care and garden design for gravesites in the greater Philadelphia area. Clients have found tremendous peace of mind seeing their loved one’s final resting place cared for with respect, compassion, and an eye for beauty.
+  In addition, knowing that flowers and greenery can have a healing effect, we offer personalized care and
+  garden design for gravesites in Nairobi metropolitan and surrounding areas. Clients have found tremendous peace of mind seeing their loved one’s final resting place cared for with respect, compassion, and an eye for beauty.
 
-  Whether it’s a vase filled with colorful blossoms or a beautified cemetery plot, flowers will fill your mind with beauty… and allow joy to bloom within you.
+  Whether it’s a vase filled with colorful blossoms or a beautified cemetery plot, flowers will fill your mind with beauty and allow joy to bloom within you.
             </p>
             <div class="abtimage">
-              <img src="assets/img/bg_image_1.png" alt="">
+              <img src="assets/img/pngegg.png" alt="">
             </div>
 
             <a href="contact" class="btn btn-primary">More Details</a>
@@ -519,16 +554,17 @@ Green Earth Cemetries offers personalized care and garden design for gravesites,
     <p>Our Services</p>
   </div>
 <div class="care-plans">
-  <div class="careplandivider">
-    <div class="careplanimg">
-<img src="assets/img/floral.jpg" alt="">
+
+<br>
+
+    <div class="testflow">
+          <img class="styleimgs2" id="fullScreenElement2" onclick="toggleFullScreen('fullScreenElement2')" src="assets/img/floral.jpg" alt="" >
     </div>
-  <div class="careplan2">
     <p>Cemeteries are generally large and expansive pieces of land, making it hard for the maintenance staff to properly and thoroughly tend to each and every individual gravesite. Their priority is to maintain the grounds, roads, and cemetery buildings as a whole first. It is not practical for a cemetery’s landscaping crew to provide the level of attention that many families desire for their loved one’s final resting place.
 
-Serene & Green will tend your family member’s gravesite (or multi-grave family plot) throughout the year, giving the site the detailed attention and consistent care it deserves.
+Green Earth Cemetries will tend your family member’s gravesite (or multi-grave family plot) throughout the year, giving the site the detailed attention and consistent care it deserves.
 
-The Forget-Me-Not Service ensures that no matter when you or your family members visit, the gravesite will be tidy and well-groomed. On a monthly basis, and as is seasonally appropriate, we will complete the following tasks:</p>
+Our service ensures that no matter when you or your family members visit, the gravesite will be tidy and well-groomed. On a monthly basis, and as is seasonally appropriate, we will complete the following tasks:</p>
 <li>Remove windblown debris and litter, including raking leaves and picking up sticks.</li>
 
 <li>Pull weeds from around the marker and within the grave area.</li>
@@ -548,15 +584,14 @@ The Forget-Me-Not Service ensures that no matter when you or your family members
 <li>Remove any collected material (weeds, twigs, leaves, spent flowers, etc.) from the site.</li>
 
 <li>Email a photo to all designated family members.</li>
-  </div>
+<br>
 
-  </div>
+
   <p>
-    Annual Fee: $800 for a minimum of 12 maintenance visits, including all materials needed for upkeep; site will be visited more than once per month in the height of the growing season to keep it well-kept. Family plots can be treated as a single visit, depending on the situation.
-
-    Some clients prefer a single annual clean-up, or occasional assistance with watering and caretaking. We can fulfill those requests as well. Whatever your needs are, we can design a care plan just for you. <strong><a href="desktopcontact">Contact us</a> </strong>  to discuss your specific needs.
+  Whatever your needs are, we can design a care plan just for you.<br> <strong><a href="contact" class="alllinkson">Contact us</a> </strong>  to discuss your specific needs.
   </p>
 </div>
+
 
 <!-- Floral deliveries -->
 <hr style="color:gray">
@@ -567,36 +602,49 @@ The Forget-Me-Not Service ensures that no matter when you or your family members
   <div class="floraldiv">
 
     <div id="floralpars">
+      <div class="testflow">
+            <img class="styleimgs" id="fullScreenElement2" onclick="toggleFullScreen('fullScreenElement2')" src="assets/img/funflower.jpg" alt="" >
+      </div>
       <p>
-        Fresh floral arrangements, ribbon-tied bouquets, or potted plants may be placed at a gravesite in remembrance of holidays (Easter, Mother’s Day, Memorial Day, Father’s Day, and Thanksgiving, to name a few) or on other special occasions, such as a birthday or anniversary. Wreaths, holiday planters, and grave pillows may be placed during the Christmas season.
+        Fresh floral arrangements, ribbon-tied bouquets, or potted plants may be placed at a gravesite in remembrance of holidays such as:
+        <br>
+        <li>Easter holiday</li>
+        <li>Mother’s Day</li>
+        <li>Memorial Day</li>
+        <li>Father’s Day</li>
+        <li>Thanksgiving day</li>
+        or on any other special occasions, such as a birthday or anniversary just to name a few. <br>  <br>Wreaths, holiday planters, and grave pillows may be placed during the Christmas season or any other seasons requested.
 
-        Single deliveries begin at $65 plus tax. The Blooming Package ($240 plus tax) includes four floral placements per year to the same gravesite, on the dates of your choosing. For example, a package could include a Christmas wreath; a pot of Easter bulbs; a floral delivery on Mother’s/Father’s Day; and a bouquet to honor your family member’s birthday. S&G will email a photo of each delivery to all designated family members.
+        We offer single deliveries, The Blooming Package (which includes four floral placements per year to the same gravesite,
+         on the dates of your choosing). <br> For example, a package could include:
+         <li>Christmas wreath</li>
+         <li>A pot of Easter bulbs</li>
+         <li>A floral delivery on Mother’s/Father’s Day</li>
+         <li>A bouquet to honor your family member’s birthday</li> Green Earth Cemeteries will email a photo of each delivery to all designated family members.
 
-        No delivery fee within 10 miles of Villanova, PA. Inquire for delivery fees outside a 10-mile radius of Villanova.
+        No delivery fee within 16 Kilometers of <strong>CBD, Nairobi</strong>. <br> <a href="contact">Inquire</a> for delivery fees outside a 16-KM radius of CBD, Nairobi.
       </p>
     </div>
-    <div class="floralimg">
-      <img src="assets/img/funflower.jpg" alt="">
-    </div>
+
   </div>
 </div>
 <!-- graveside garden -->
 <hr style="color:gray">
 <div class="graveside-gardens">
-  <p class="gardentitle">Gravesid Gardens</p>
+  <p class="alltitlesonpage">Gravesite Gardens</p>
   <div class="gardendiv">
-    <div class="gardendivimage">
-      <img src="assets/img/garden.jpg" alt="">
-    </div>
     <div class="gardenpars">
+      <div class="testflow">
+          <img class="styleimgs2" id="fullScreenElement1" onclick="toggleFullScreen('fullScreenElement1')" src="assets/img/garden.jpg" alt="">
+      </div>
       <p>
         Blooming flowers and lush groundcover surrounding the headstone of a loved one provide ongoing color and beauty throughout the season.
 
-        Working within each cemetery’s guidelines and using the amount of space available to plant, Serene & Green can design a unique small-scale garden for your family member’s gravesite. Plans may include annuals, perennials, bulbs, groundcovers, and/or small shrubs. We select low-maintenance plants that will stay compact.
+        Working within each cemetery’s guidelines and using the amount of space available to plant, Green Earth Cemeteries can design a unique small-scale garden for your family member’s gravesite. <br><br> Plans may include annuals, perennials, bulbs, groundcovers, and/or small shrubs. We select low-maintenance plants that will stay compact.
 
-        Garden design, installation, and maintenance plans are individually priced. We will make a complimentary visit to the site and develop a proposal for your consideration.
+      <br> <br> Garden design, installation, and maintenance plans are individually priced. We will make a complimentary visit to the site and develop a proposal for your consideration.
 
-        We always check with the cemetery administrator before undertaking any planning or planting. In some instances, due to cemetery regulations, Serene & Green may design the garden and purchase the plantings, while allowing cemetery staff to manage the installation.
+        <br>We always check with the cemetery administrator before undertaking any planning or planting. In some instances, due to cemetery regulations, Green Earth Cemeteries may design the garden and purchase the plantings, while allowing cemetery staff to manage the installation.
 
 
       </p>
@@ -614,14 +662,17 @@ The Forget-Me-Not Service ensures that no matter when you or your family members
     <p>
 Over time, lichen, moss, and mold can adhere to a stone marker.
 A non-ionic, biological cleaner can brighten up the stone and slow
-future growth. Pricing depends on the size and condition of the marker. Average fee: $75 per headstone.
+future growth. Pricing depends on the size and condition of the marker.
     </p>
     <div class="headstoneimages">
       <div>
-        <img src="assets/img/headstone.jpg" alt="">
+        <img id="fullScreenElement4" onclick="toggleFullScreen('fullScreenElement4')" src="assets/img/headstone.jpg" alt="">
       </div>
       <div>
-        <img src="assets/img/headstone1.jpg" alt="">
+        <img id="fullScreenElement5" onclick="toggleFullScreen('fullScreenElement5')" src="assets/img/headstone1.jpg" alt="">
+      </div>
+      <div>
+        <img id="fullScreenElement6" onclick="toggleFullScreen('fullScreenElement6')" src="assets/img/headclean.jpg" alt="">
       </div>
     </div>
   </div>
@@ -639,28 +690,53 @@ future growth. Pricing depends on the size and condition of the marker. Average 
       <div class="col-lg-4 py-3 wow fadeInUp">
         <div class="display-3"><span class="mai-shapes"></span></div>
         <h5>High Performance</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+        <p>We are what we repeatedly do. Excellence, then, is not an act, but a habit.</p>
       </div>
       <div class="col-lg-4 py-3 wow fadeInUp">
         <div class="display-3"><span class="mai-shapes"></span></div>
         <h5>Friendly Prices</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+        <p>We like to think of sales as the ability to gracefully persuade, not manipulate, a person or persons into a win-win situation.</p>
       </div>
       <div class="col-lg-4 py-3 wow fadeInUp">
         <div class="display-3"><span class="mai-shapes"></span></div>
         <h5>No time-confusing</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+        <p>A plan is what, a schedule is when. It takes both a plan and a schedule to get things done.</p>
       </div>
     </div>
   </div> <!-- .container -->
 </div> <!-- .page-section -->
+
+
   <!-- why chose us end -->
+  <div class="page-section counter-section">
+    <div class="container">
+      <div class="row align-items-center text-center">
+        <div class="col-lg-4">
+          <p>Total Gigs</p>
+          <h2><span class="number" data-number="816278"></span></h2>
+        </div>
+        <div class="col-lg-4">
+          <p>Total Deliveries</p>
+          <h2><span class="number" data-number="216422"></span></h2>
+        </div>
+        <div class="col-lg-4">
+          <p>Growth Ration</p>
+          <h2><span class="number" data-number="73"></span>%</h2>
+        </div>
+      </div>
+    </div> <!-- .container -->
+  </div> <!-- .page-section -->
 <!-- FAQS -->
-<hr style="color:gray">
-<div class="faqs">
+<hr style="color:gray" id="faqs">
+<div class="faqs" >
   <p class="alltitlesonpage">
 FAQS
   </p>
+
+    <div class="testflow">
+        <img class="styleimgs1" src="assets/img/flowerbasket.png" alt="">
+    </div>
+
   <div class="faqstarter">
     <p><strong>
 Who uses your gravesite maintenance and beautification services, and why?
@@ -691,11 +767,12 @@ Who uses your gravesite maintenance and beautification services, and why?
       <p><strong>Do you offer a discount to care for several gravesites that are located nearby or within the same cemetery?</strong> </p>
       <p>Yes, an entire family plot (up to 8 gravesites) is included in the <a href="#">Forget-Me-Not Service</a> fee.</p>
   </div>
-  <div class="faqsdivider">
-    <div class="faqsdivimage">
-      <img src="assets/img/stone4.jpg" alt="">
-    </div>
-    <div class="faqsdividerdiv">
+
+
+    <div class="faqstarter">
+      <div class="testflow">
+          <img class="styleimgs2" src="assets/img/gravefaqs.png" alt="">
+      </div>
       <p><strong>What do you mean by a light cleaning of the headstone?</strong> </p>
       <p>Water is generally all that is needed to clean a well-maintained headstone. That said, over
         time, lichen, moss, and mold can adhere to a stone marker. A non-ionic, biological cleaner can
@@ -712,37 +789,35 @@ Who uses your gravesite maintenance and beautification services, and why?
         <p><strong>Can you deliver a message for me?</strong> </p>
         <p>Yes. When we visit a gravesite as part of a care plan or floral delivery, we can read a verbal message, a poem, or a gravesite prayer. We also deliver written messages. Your written message will be kept private, in a sealed envelope.</p>
 
-    </div>
+        <p><strong>Can I select the day that you visit the grave?</strong> </p>
+        <p>Yes. We understand that your loved ones need to be remembered on special days, such as birthdays, anniversaries, and holidays. If you would like us to visit on a national holiday, there will be an extra charge.</p>
+
+        <p><strong>Can you plant flowers, bulbs, or shrubs?</strong> </p>
+        <p>We can provide any horticultural services or plantings that stay within the cemetery’s guidelines.</p>
+
+        <p><strong>Since I can’t go to the cemetery, how will I know you performed the services I requested?</strong> </p>
+        <p>We provide you with a photograph taken at the site, either by email or text. We can also provide printed photos by mail for a small fee.</p>
+
+        <p><strong>I’m not sure of the exact location of the burial site. Can you find it for me?</strong> </p>
+        <p>We will make every effort to locate your loved one’s grave with the information you have available. Most cemeteries maintain records that are very helpful. Providing us with the gravesite section and plot number is ideal. At a minimum, we need the name of the cemetery and the name
+           on the headstone or marker. There will be an extra fee to locate non-specified grave locations.</p>
+
+        <p><strong>I haven’t been able to visit the gravesite for a long time. I don’t know if the headstone/monument is in disrepair or in need of cleaning.</strong> </p>
+        <p>We will notify you if there are any condition problems. You will also be able to view the headstone or monument in the photograph we take at the site after maintenance visits and floral deliveries.</p>
+
+        <p><strong>Will you help with my pet’s memorial?</strong> </p>
+        <p>Pets are a part of the family and are memorialized in many ways.  Contact us to see how we can customize a care plan for your beloved pet’s gravesite.</p>
+
+        <p><strong>How do payments work?</strong> </p>
+        <p>Annual care plans may be paid in full at the outset or billed on a quarterly basis.
+           Floral deliveries must be paid in full before the delivery is made. Fees for garden design,
+           installation, and maintenance will be determined on an individual basis. Payments can be made by
+           personal check, cash, or credit card through PayPal.
+
+    </p>
 
   </div>
-  <div class="faqsdividerdiv">
-    <p><strong>Can I select the day that you visit the grave?</strong> </p>
-    <p>Yes. We understand that your loved ones need to be remembered on special days, such as birthdays, anniversaries, and holidays. If you would like us to visit on a national holiday, there will be an extra charge.</p>
 
-    <p><strong>Can you plant flowers, bulbs, or shrubs?</strong> </p>
-    <p>We can provide any horticultural services or plantings that stay within the cemetery’s guidelines.</p>
-
-    <p><strong>Since I can’t go to the cemetery, how will I know you performed the services I requested?</strong> </p>
-    <p>We provide you with a photograph taken at the site, either by email or text. We can also provide printed photos by mail for a small fee.</p>
-
-    <p><strong>I’m not sure of the exact location of the burial site. Can you find it for me?</strong> </p>
-    <p>We will make every effort to locate your loved one’s grave with the information you have available. Most cemeteries maintain records that are very helpful. Providing us with the gravesite section and plot number is ideal. At a minimum, we need the name of the cemetery and the name
-       on the headstone or marker. There will be an extra fee to locate non-specified grave locations.</p>
-
-    <p><strong>I haven’t been able to visit the gravesite for a long time. I don’t know if the headstone/monument is in disrepair or in need of cleaning.</strong> </p>
-    <p>We will notify you if there are any condition problems. You will also be able to view the headstone or monument in the photograph we take at the site after maintenance visits and floral deliveries.</p>
-
-    <p><strong>Will you help with my pet’s memorial?</strong> </p>
-    <p>Pets are a part of the family and are memorialized in many ways.  Contact us to see how we can customize a care plan for your beloved pet’s gravesite.</p>
-
-    <p><strong>How do payments work?</strong> </p>
-    <p>Annual care plans may be paid in full at the outset or billed on a quarterly basis.
-       Floral deliveries must be paid in full before the delivery is made. Fees for garden design,
-       installation, and maintenance will be determined on an individual basis. Payments can be made by
-       personal check, cash, or credit card through PayPal.
-
-</p>
-  </div>
   <div class="parallax" id="desktopfunwithflowers">
     <p>Fun With Flowers</p>
   </div>
@@ -754,7 +829,10 @@ Who uses your gravesite maintenance and beautification services, and why?
 
 <p class="alltitlesonpage">Workshop & Parties</p>
   <div class="workdetail">
-    <div class="">
+    <div class="workparagraph">
+      <div class="testflow">
+          <img class="styleimgs" src="assets/img/team.jpg" alt="">
+      </div>
       <p>Interested in learning more about flower arranging or just need a good excuse to gather with great  friends? Or maybe you’re looking for an activity for your bridal party? Let the workshop come to you! Book one of our flower arranging workshops for a fun and creative, hands-on experience.
 
   We will host your group at your home or we can suggest a rental venue. All flowers, tools, and vessels are provided. Workshops start at $65 per person with a minimum of 5 guests. The hostess provides refreshments.
@@ -766,11 +844,8 @@ Who uses your gravesite maintenance and beautification services, and why?
     <li>Seasonal wreath-making, including herb wreaths</li>
     <li>A “Cocktail Flower Hour” paired with a wine tasting</li>
     <p><a href="#">Contact us </a> for more details.</p>
-    </div>
 
-  <div>
-    <img src="assets/img/team.jpg" alt="">
-  </div>
+    </div>
   </div>
 
 </div>
@@ -781,9 +856,9 @@ Who uses your gravesite maintenance and beautification services, and why?
   <p class="alltitlesonpage"> Florals at Home</p>
   <div class="floralpars">
     <div class="">
-      <img src="assets/img/floral2.jpg" alt="">
-    </div>
-    <div class="">
+      <div class="testflow">
+          <img class="styleimgs2" src="assets/img/floral2.png" alt="">
+      </div>
       <p>Flowers bring about positive emotional feelings and make spaces more welcoming. Some of the best places in your home to add floral arrangements are your dining room table or your kitchen island. A bright and sunny arrangement will lift anyone’s mood.
 
 Flowers are also an excellent addition to bedrooms. Not only do they freshen up the decor, but they will also bring a lift to your spirits as you start each day. What’s better than awakening to blooms by your bedside?
@@ -799,60 +874,101 @@ Please note that the cost of an arrangement is dependent on the flower varieties
 </div>
 <!-- for kids -->
 <hr style="color:gray">
-<div class="for-the-kids">
-  <p class="alltitlesonpage">For The Kids</p>
-  <div class="forkidspars">
-    <p>Are you looking for something new to do with your kids that will showcase their creativity and imagination? Introduce them to the art of flower arranging through a “Posy Pals” workshop! Flowers are bright and beautiful, with so many different characteristics, shapes, and scents—your children and their friends will be captivated by the experience! Making flower crowns is also a festive birthday party activity for girls. Contact us to talk through the details.<br> Interested in planting seeds of kindness with bouquets? Through the Flower Ninja Project, you create a small floral arrangement and leave it in a public place with a tag that reads “If you find this, it’s for you!” Finders are asked to post images of bouquets they find, to further spread the joy. You can learn more at For the One Who Finds Me. If you and your children want to make and place your own bouquets, here is a link to the instructions, which include tags to print out and tie to the vases. Have fun!</p>
-    <div class="">
-      <img src="assets/img/kids.jpg" alt="">
+<div class="Workshop-and-parties">
+
+<p class="alltitlesonpage">For The Kids</p>
+  <div class="workdetail">
+    <div class="workparagraph">
+      <div class="testflow">
+          <img class="styleimgs2" src="assets/img/kids.jpg" alt="">
+      </div>
+      <p>Are you looking for something new to do with your kids that will showcase their creativity and imagination? Introduce them to the art of flower arranging through a “Posy Pals” workshop! Flowers are bright and beautiful, with so many different characteristics, shapes, and scents—your children and their friends will be captivated by the experience! Making flower crowns is also a festive birthday party activity for girls. Contact us to talk through the details.<br> Interested in planting seeds of kindness with bouquets? Through the Flower Ninja Project, you create a small floral arrangement and leave it in a public place with a tag that reads “If you find this, it’s for you!” Finders are asked to post images of bouquets they find, to further spread the joy. You can learn more at For the One Who Finds Me. If you and your children want to make and place your own bouquets, here is a link to the instructions, which include tags to print out and tie to the vases. Have fun!</p>
+
+
     </div>
   </div>
+
 </div>
+
+
 
 <!-- Terms and conditions -->
 <hr style="color:gray">
 <div class="Terms">
   <p class="alltitlesonpage">Terms & Conditions</p>
 
-  <div class="termspars">
-    <p><strong>Guarantee of Service and Quality</strong> </p>
-    <p>All of our work is carried out in a dignified and respectful manner.<br>
-Floral tributes will be made up on the day of delivery to ensure freshness.<br>
-Following each visit, you will receive a digital photograph of the grave.<br>
-We cannot accept liability for any loss and/or damage occurring after we complete our work and leave the gravesite.</p>
+    <div class="faqsdividerdiv">
+      <div class="testflow">
+          <img class="styleimgs" src="assets/img/terms.png" alt="">
+      </div>
+      <p><strong>Guarantee of Service and Quality</strong> </p>
+      <p>All of our work is carried out in a dignified and respectful manner.<br>
+  Floral tributes will be made up on the day of delivery to ensure freshness.<br>
+  Following each visit, you will receive a digital photograph of the grave.<br>
+  We cannot accept liability for any loss and/or damage occurring after we complete our work and leave the gravesite.</p>
 
-    <p><strong>Substitution</strong> </p>
-    <p>If necessary, due to availability issues of flowers and/or plants, we reserve the right to substitute alternatives of high quality and of equal or higher value.</p>
+      <p><strong>Substitution</strong> </p>
+      <p>If necessary, due to availability issues of flowers and/or plants, we reserve the right to substitute alternatives of high quality and of equal or higher value.</p>
 
-    <p><strong>Payment Options</strong> </p>
-    <p>Following acceptance of your order, we will confirm the details and submit an invoice for payment which will form the basis and commencement of the agreement.<br>
+      <p><strong>Payment Options</strong> </p>
+      <p>Following acceptance of your order, we will confirm the details and submit an invoice for payment which will form the basis and commencement of the agreement.<br>
 
-We accept personal checks, cash, and credit card payments via PayPal. <br>
+  We accept personal checks, cash, and credit card payments via PayPal. <br>
 
-Pricing is based on a single plot size.</p>
+  Pricing is based on a single plot size.</p>
 
-    <p><strong>Complaints</strong> </p>
-    <p>Please contact us immediately and we will aim to resolve any issues as quickly as possible.</p>
+      <p><strong>Complaints</strong> </p>
+      <p>Please contact us immediately and we will aim to resolve any issues as quickly as possible.</p>
 
-    <p><strong>Regulations</strong> </p>
-    <p>Cemetery rules and regulations will be requested and adhered to.</p>
+      <p><strong>Regulations</strong> </p>
+      <p>Cemetery rules and regulations will be requested and adhered to.</p>
+      <p><strong>Surcharges</strong> </p>
+      <p>An extra fee will be added to locate non-specified grave locations.<br>
 
-    <p><strong>Surcharges</strong> </p>
-    <p>An extra fee will be added to locate non-specified grave locations.<br>
+  Travel charges will be added to cemeteries located outside Philadelphia and Bucks, Chester, Delaware, and Montgomery counties.<br>
 
-Travel charges will be added to cemeteries located outside Philadelphia and Bucks, Chester, Delaware, and Montgomery counties.<br>
+  For a small fee, printed photos of gravesites can be mailed to clients.</p>
+    </div>
 
-For a small fee, printed photos of gravesites can be mailed to clients.</p>
 
-  </div>
 </div>
 
 
 </div>
 
   </main>
+  <div class="page-section bg-light">
+    <div class="container">
+
+      <div class="owl-carousel wow fadeInUp" id="testimonials">
+        <div class="item">
+          <div class="row align-items-center">
+            <div class="col-md-6 py-3">
+              <div class="testi-image">
+                <img src="../assets/img/person/profile.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 py-3">
+              <div class="testi-content">
+                <p>I believe in the power of recognition and empowerment
+                   leading to great employee engagement. And employee engagement
+                   is critical to guest engagement. Employee empowerment and recognition
+                   is the core of our culture and how we achieve outstanding customer service.</p>
+                <div class="entry-footer">
+                  <strong>Green EarthCemetries</strong> &mdash; <span class="text-grey">CEO Timothy Waigwa</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div> <!-- .container -->
+  </div> <!-- .page-section -->
 <div class="socialmedia">
-  <li class="whatsapp"><a  href="#"><i class="fa fa-whatsapp"></i></a></li>
+  <li class="whatsapp"><a  href="whatsapp://send?abid=+254721607765&text=Hello! Am contacting from Green Earth Cemetries and would like to inquire afew things like;"><i class="fa fa-whatsapp"></i></a></li>
   <li class="facebook"><a  href="#"><i class="fa fa-facebook"></i></a></li>
   <li class="ig"><a  href="#"><i class="fa fa-instagram"></i></a></li>
 </div>
@@ -865,7 +981,7 @@ For a small fee, printed photos of gravesites can be mailed to clients.</p>
       <div class="col-lg-6 py-3 wow fadeInUp">
         <h2 class="title-section">Get in Touch</h2>
         <div class="divider"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Laborum ratione autem quidem veritatis!</p>
+        <p>The sole reason we are in business is to make life less difficult for our clients.</p>
 
         <ul class="contact-list">
           <li>
@@ -908,10 +1024,13 @@ For a small fee, printed photos of gravesites can be mailed to clients.</p>
     <div class="container">
       <div class="row justify-content-center mb-5">
         <div class="col-lg-3 py-3">
-          <h3>Digi<span class="text-primary">Gram.</span></h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <h3 style="font-size:30px" >Green Earth<span class="text-primary">Cemetries.</span></h3>
+          <p>I believe in the power of recognition and empowerment leading to great
+            employee engagement. And employee engagement is critical to guest engagement.
+             Employee empowerment and recognition is the core of our culture and how we achieve
+             outstanding customer service.</p>
 
-          <p><a href="#" >digigram@mail.com</a></p>
+          <p><a href="#" >Greenearthcemetries@mail.com</a></p>
           <p><a href="#">+00 1122 3344 5566</a></p>
         </div>
         <div class="col-lg-3 py-3">
